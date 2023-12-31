@@ -8,22 +8,10 @@ Created on Tue Oct 31 20:01:06 2023
 import os.path
 
 import brainpy as bp
-import brainpy.math as bm
 import matplotlib.pyplot as plt
 import numpy as np
-
-import utils
-import neus_and_syns
-import spindle_detection
-import multiprocessing
-from pathlib import Path
-import argparse
-import seaborn as sns
-
-
 import powerlaw
-from MFDFA import MFDFA
-from MFDFA import fgn
+import seaborn as sns
 
 bp.math.enable_x64(True)
 bp.math.set_platform('cpu')

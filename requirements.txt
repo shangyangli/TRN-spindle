@@ -1,0 +1,7 @@
+brainpy==2.4.3.post5
+brainpylib==0.1.9
+yasa==0.1.9
+mne==0.19.2
+seaborn
+pandas
+powerlaw

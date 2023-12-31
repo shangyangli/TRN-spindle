@@ -8,19 +8,14 @@ Created on Sun Dec 10 19:58:56 2023
 import os.path
 
 import brainpy as bp
-import brainpy.math as bm
 import matplotlib.pyplot as plt
 import numpy as np
-
-import utils
-import neus_and_syns
-import spindle_detection
-import multiprocessing
 import pandas as pd
-import seaborn as sns
-from mne.filter import filter_data
 from matplotlib.ticker import MaxNLocator
+from mne.filter import filter_data
+
 import spindle_detection
+import utils
 
 #bp.math.enable_x64(True)
 bp.math.set_platform('cpu')

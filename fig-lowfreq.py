@@ -12,11 +12,9 @@ import brainpy.math as bm
 import matplotlib.pyplot as plt
 import numpy as np
 
-import utils
 import neus_and_syns
 import spindle_detection
-import multiprocessing
-import seaborn as sns
+import utils
 
 bp.math.enable_x64(True)
 bp.math.set_platform('cpu')

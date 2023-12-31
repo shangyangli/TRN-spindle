@@ -10,7 +10,6 @@ import numpy as np
 import brainpy as bp
 import brainpy.math as bm
 import matplotlib.pyplot as plt
-from joblib import Parallel, delayed
 import neus_and_syns
 from neus_and_syns import ReducedTRNv1
 plt.rcParams.update({"font.size": 15})
